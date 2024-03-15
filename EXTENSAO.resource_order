@@ -1,4 +1,9 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Obj_floor","order":2,"path":"objects/Obj_floor/Obj_floor.yy",},
+    {"name":"Obj_player","order":1,"path":"objects/Obj_player/Obj_player.yy",},
+    {"name":"Rm_movimentacao","order":1,"path":"rooms/Rm_movimentacao/Rm_movimentacao.yy",},
+    {"name":"Spr_floor","order":1,"path":"sprites/Spr_floor/Spr_floor.yy",},
+  ],
 }

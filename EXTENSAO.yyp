@@ -35,13 +35,19 @@
   "name":"EXTENSAO",
   "resources":[
     {"id":{"name":"Ft_menu","path":"fonts/Ft_menu/Ft_menu.yy",},},
+    {"id":{"name":"Obj_floor","path":"objects/Obj_floor/Obj_floor.yy",},},
     {"id":{"name":"Obj_menu","path":"objects/Obj_menu/Obj_menu.yy",},},
+    {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
+    {"id":{"name":"Rm_movimentacao","path":"rooms/Rm_movimentacao/Rm_movimentacao.yy",},},
+    {"id":{"name":"Spr_floor","path":"sprites/Spr_floor/Spr_floor.yy",},},
+    {"id":{"name":"Spr_player","path":"sprites/Spr_player/Spr_player.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
+    {"roomId":{"name":"Rm_movimentacao","path":"rooms/Rm_movimentacao/Rm_movimentacao.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
