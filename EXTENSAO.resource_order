@@ -1,9 +1,20 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_agua","order":3,"path":"objects/obj_agua/obj_agua.yy",},
+    {"name":"obj_chao","order":4,"path":"objects/obj_chao/obj_chao.yy",},
     {"name":"Obj_floor","order":2,"path":"objects/Obj_floor/Obj_floor.yy",},
+    {"name":"obj_lava","order":5,"path":"objects/obj_lava/obj_lava.yy",},
     {"name":"Obj_player","order":1,"path":"objects/Obj_player/Obj_player.yy",},
+    {"name":"obj_quebravel","order":6,"path":"objects/obj_quebravel/obj_quebravel.yy",},
     {"name":"Rm_movimentacao","order":1,"path":"rooms/Rm_movimentacao/Rm_movimentacao.yy",},
+    {"name":"Room1","order":2,"path":"rooms/Room1/Room1.yy",},
+    {"name":"Room1a","order":3,"path":"rooms/Room1a/Room1a.yy",},
+    {"name":"Room1b","order":4,"path":"rooms/Room1b/Room1b.yy",},
+    {"name":"spr_agua","order":2,"path":"sprites/spr_agua/spr_agua.yy",},
+    {"name":"spr_chao","order":3,"path":"sprites/spr_chao/spr_chao.yy",},
     {"name":"Spr_floor","order":1,"path":"sprites/Spr_floor/Spr_floor.yy",},
+    {"name":"spr_lava","order":4,"path":"sprites/spr_lava/spr_lava.yy",},
+    {"name":"spr_quebravel","order":5,"path":"sprites/spr_quebravel/spr_quebravel.yy",},
   ],
 }
