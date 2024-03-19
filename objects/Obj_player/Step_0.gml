@@ -13,23 +13,23 @@ vspd = vspd + gravidade
 
 if(hspd != 0) image_xscale = sign(hspd);
 
-if(place_meeting(x + hspd, y, Obj_floor)){
-	while(!place_meeting(x + sign(hspd), y, Obj_floor)){
+if(place_meeting(x + hspd, y,obj_chao)){
+	while(!place_meeting(x + sign(hspd), y, obj_chao)){
 		x += sign(hspd);
 	}
 	hspd = 0;
 }
 x += hspd;
 
-if(place_meeting(x, y + vspd, Obj_floor)){
-	while(!place_meeting(x, y + sign(vspd), Obj_floor)){
+if(place_meeting(x, y + vspd, obj_chao)){
+	while(!place_meeting(x, y + sign(vspd), obj_chao)){
 		y += sign(vspd);
 	}
 	vspd = 0;
 }
 y += vspd;
 
-if place_meeting(x, y+1, Obj_floor) and key_jump{
+if place_meeting(x, y+1, obj_chao) and key_jump{
 	vspd -= 15;
 }
 		

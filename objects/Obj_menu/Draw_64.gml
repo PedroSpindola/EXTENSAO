@@ -31,7 +31,7 @@ for(var i=0;i<op_max;i++){
 			if(index==0)
 			{
 				
-				room_goto(Rm_movimentacao);
+				room_goto(Room1);
 				
 			}
 			
