@@ -1,0 +1,26 @@
+{
+  "FolderOrderSettings":[
+    {"name":"grupo_Obj_chao","order":11,"path":"folders/Objetos/grupo_Obj_chao.yy",},
+    {"name":"grupo_Obj_funcoes","order":14,"path":"folders/Objetos/grupo_Obj_funcoes.yy",},
+    {"name":"grupo_Obj_inimigos","order":12,"path":"folders/Objetos/grupo_Obj_inimigos.yy",},
+    {"name":"grupo_Obj_player","order":13,"path":"folders/Objetos/grupo_Obj_player.yy",},
+    {"name":"grupo_Spr_blocos","order":9,"path":"folders/Sprites/grupo_Spr_blocos.yy",},
+    {"name":"grupo_Spr_inimigos","order":8,"path":"folders/Sprites/grupo_Spr_inimigos.yy",},
+    {"name":"grupo_Spr_players","order":7,"path":"folders/Sprites/grupo_Spr_players.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Obj_entidades_parente","order":1,"path":"objects/Obj_entidades_parente/Obj_entidades_parente.yy",},
+    {"name":"Obj_inimigo","order":2,"path":"objects/Obj_inimigo/Obj_inimigo.yy",},
+    {"name":"Obj_inimigo1","order":1,"path":"objects/Obj_inimigo1/Obj_inimigo1.yy",},
+    {"name":"obj_quebravel","order":1,"path":"objects/obj_quebravel/obj_quebravel.yy",},
+    {"name":"Room1","order":2,"path":"rooms/Room1/Room1.yy",},
+    {"name":"Room1a","order":3,"path":"rooms/Room1a/Room1a.yy",},
+    {"name":"Room1b","order":4,"path":"rooms/Room1b/Room1b.yy",},
+    {"name":"Approach","order":1,"path":"scripts/Approach/Approach.yy",},
+    {"name":"Player","order":2,"path":"scripts/Player/Player.yy",},
+    {"name":"spr_agua","order":1,"path":"sprites/spr_agua/spr_agua.yy",},
+    {"name":"spr_lava","order":2,"path":"sprites/spr_lava/spr_lava.yy",},
+    {"name":"spr_quebravel","order":3,"path":"sprites/spr_quebravel/spr_quebravel.yy",},
+    {"name":"Sprite7","order":1,"path":"sprites/Sprite7/Sprite7.yy",},
+  ],
+}
