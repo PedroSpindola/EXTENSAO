@@ -1,3 +1,4 @@
 event_inherited();
 
-Player()
+inimigos_dano()
+
