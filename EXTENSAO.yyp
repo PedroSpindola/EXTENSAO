@@ -33,16 +33,10 @@
     "IDEVersion":"2024.2.0.132",
   },
   "name":"EXTENSAO",
-  "resources":[
-    {"id":{"name":"Ft_menu","path":"fonts/Ft_menu/Ft_menu.yy",},},
-    {"id":{"name":"Obj_menu","path":"objects/Obj_menu/Obj_menu.yy",},},
-    {"id":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
-  ],
+  "resources":[],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
-  "RoomOrderNodes":[
-    {"roomId":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
-  ],
+  "RoomOrderNodes":[],
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
