@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_menu",
+  "%Name":"Obj_inimigos_parente",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_menu",
+  "name":"Obj_inimigos_parente",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"grupo_Obj_inimigos",
+    "path":"folders/Objetos/grupo_Obj_inimigos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_entidades_parente",
+    "path":"objects/Obj_entidades_parente/Obj_entidades_parente.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

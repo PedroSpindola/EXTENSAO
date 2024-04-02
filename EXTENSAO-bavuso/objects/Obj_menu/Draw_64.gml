@@ -31,7 +31,7 @@ for(var i=0;i<op_max;i++){
 			if(index==0)
 			{
 				
-				//room_goto(); tirar essas Barras qndo criarem a primeira sala, colocar o nome da sala no
+				room_goto(Room1);
 				
 			}
 			
