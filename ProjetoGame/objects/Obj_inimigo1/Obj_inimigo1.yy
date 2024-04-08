@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_inimigoBase",
-    "path":"sprites/Spr_inimigoBase/Spr_inimigoBase.yy",
+    "name":"Spr_inimigo",
+    "path":"sprites/Spr_inimigo/Spr_inimigo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -40,12 +40,6 @@
     "IDEVersion":"2024.2.0.132",
   },
   "name":"EXTENSAO",
-<<<<<<< HEAD:EXTENSAO.yyp
-  "resources":[],
-  "resourceType":"GMProject",
-  "resourceVersion":"2.0",
-  "RoomOrderNodes":[],
-=======
   "resources":[
     {"id":{"name":"Ft_menu","path":"fonts/Ft_menu/Ft_menu.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
@@ -61,14 +55,17 @@
     {"id":{"name":"Room1a","path":"rooms/Room1a/Room1a.yy",},},
     {"id":{"name":"Room1b","path":"rooms/Room1b/Room1b.yy",},},
     {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},},
-    {"id":{"name":"Scr_inimigos_state","path":"scripts/Scr_inimigos_state/Scr_inimigos_state.yy",},},
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},},
+    {"id":{"name":"Scr_inimigos_state","path":"scripts/Scr_inimigos_state/Scr_inimigos_state.yy",},},
     {"id":{"name":"spr_agua","path":"sprites/spr_agua/spr_agua.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
+    {"id":{"name":"Spr_inimigo","path":"sprites/Spr_inimigo/Spr_inimigo.yy",},},
     {"id":{"name":"Spr_inimigoBase","path":"sprites/Spr_inimigoBase/Spr_inimigoBase.yy",},},
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},},
-    {"id":{"name":"Spr_player","path":"sprites/Spr_player/Spr_player.yy",},},
+    {"id":{"name":"Spr_player1","path":"sprites/Spr_player1/Spr_player1.yy",},},
+    {"id":{"name":"Spr_player2","path":"sprites/Spr_player2/Spr_player2.yy",},},
     {"id":{"name":"spr_quebravel","path":"sprites/spr_quebravel/spr_quebravel.yy",},},
+    {"id":{"name":"Spr_player3","path":"sprites/Spr_player3/Spr_player3.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
   ],
   "resourceType":"GMProject",
@@ -79,7 +76,6 @@
     {"roomId":{"name":"Room1a","path":"rooms/Room1a/Room1a.yy",},},
     {"roomId":{"name":"Room1b","path":"rooms/Room1b/Room1b.yy",},},
   ],
->>>>>>> e57a34b681294d56d2abcfa3416a9920ce74009b:EXTENSAO-bavuso/EXTENSAO.yyp
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},

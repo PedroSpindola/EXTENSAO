@@ -19,8 +19,11 @@
     {"name":"Approach","order":1,"path":"scripts/Approach/Approach.yy",},
     {"name":"Player","order":2,"path":"scripts/Player/Player.yy",},
     {"name":"spr_agua","order":1,"path":"sprites/spr_agua/spr_agua.yy",},
+    {"name":"Spr_inimigo","order":2,"path":"sprites/Spr_inimigo/Spr_inimigo.yy",},
     {"name":"spr_lava","order":2,"path":"sprites/spr_lava/spr_lava.yy",},
+    {"name":"Spr_player2","order":1,"path":"sprites/Spr_player2/Spr_player2.yy",},
     {"name":"spr_quebravel","order":3,"path":"sprites/spr_quebravel/spr_quebravel.yy",},
+    {"name":"Spr_player3","order":2,"path":"sprites/Spr_player3/Spr_player3.yy",},
     {"name":"Sprite7","order":1,"path":"sprites/Sprite7/Sprite7.yy",},
   ],
 }
