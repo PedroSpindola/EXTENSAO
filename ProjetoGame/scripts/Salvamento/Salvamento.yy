@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Salvamento",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Salvamento",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

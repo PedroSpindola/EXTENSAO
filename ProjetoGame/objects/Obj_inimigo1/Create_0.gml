@@ -2,8 +2,7 @@ event_inherited();
 move_dir=1;
 move_spd=10;
 vida=2;
-x = 100;
-y = 100;
+
 
 state_andando = function(){
 		

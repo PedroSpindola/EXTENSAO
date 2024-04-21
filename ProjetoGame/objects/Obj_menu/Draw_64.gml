@@ -35,7 +35,13 @@ for(var i=0;i<op_max;i++){
 				
 			}
 			
-			if(index==1)
+			if(index==1){
+				
+			
+				
+			}
+			
+			if(index==2)
 			{
 				
 				game_end();
