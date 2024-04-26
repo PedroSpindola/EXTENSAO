@@ -9,6 +9,8 @@
     {"name":"grupo_Spr_players","order":7,"path":"folders/Sprites/grupo_Spr_players.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_chao_invisivel","order":3,"path":"objects/obj_chao_invisivel/obj_chao_invisivel.yy",},
+    {"name":"obj_chao_movel","order":2,"path":"objects/obj_chao_movel/obj_chao_movel.yy",},
     {"name":"Obj_entidades_parente","order":1,"path":"objects/Obj_entidades_parente/Obj_entidades_parente.yy",},
     {"name":"Obj_inimigo1","order":1,"path":"objects/Obj_inimigo1/Obj_inimigo1.yy",},
     {"name":"Obj_inimigo2","order":2,"path":"objects/Obj_inimigo2/Obj_inimigo2.yy",},
@@ -18,6 +20,7 @@
     {"name":"Room1","order":1,"path":"rooms/Room1/Room1.yy",},
     {"name":"Room1a","order":2,"path":"rooms/Room1a/Room1a.yy",},
     {"name":"Room1b","order":3,"path":"rooms/Room1b/Room1b.yy",},
+    {"name":"RoomQG","order":4,"path":"rooms/RoomQG/RoomQG.yy",},
     {"name":"Approach","order":1,"path":"scripts/Approach/Approach.yy",},
     {"name":"Player","order":2,"path":"scripts/Player/Player.yy",},
     {"name":"Salvamento","order":3,"path":"scripts/Salvamento/Salvamento.yy",},
@@ -29,6 +32,7 @@
     {"name":"Spr_player3","order":2,"path":"sprites/Spr_player3/Spr_player3.yy",},
     {"name":"spr_quebravel","order":3,"path":"sprites/spr_quebravel/spr_quebravel.yy",},
     {"name":"Spr_tiro","order":10,"path":"sprites/Spr_tiro/Spr_tiro.yy",},
+    {"name":"spr_invisivel","order":4,"path":"sprites/spr_invisivel/spr_invisivel.yy",},
     {"name":"Sprite7","order":1,"path":"sprites/Sprite7/Sprite7.yy",},
   ],
 }
