@@ -34,9 +34,9 @@
     {"name":"spr_lava","order":2,"path":"sprites/spr_lava/spr_lava.yy",},
     {"name":"Spr_player2","order":1,"path":"sprites/Spr_player2/Spr_player2.yy",},
     {"name":"Spr_player3","order":2,"path":"sprites/Spr_player3/Spr_player3.yy",},
+    {"name":"Spr_portal_historia","order":1,"path":"sprites/Spr_portal_historia/Spr_portal_historia.yy",},
     {"name":"spr_quebravel","order":3,"path":"sprites/spr_quebravel/spr_quebravel.yy",},
     {"name":"Spr_tiro","order":10,"path":"sprites/Spr_tiro/Spr_tiro.yy",},
-    {"name":"Spr_portal_historia","order":1,"path":"sprites/Spr_portal_historia/Spr_portal_historia.yy",},
     {"name":"Sprite7","order":1,"path":"sprites/Sprite7/Sprite7.yy",},
   ],
 }

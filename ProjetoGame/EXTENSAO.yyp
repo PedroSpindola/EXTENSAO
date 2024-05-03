@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"EXTENSAO",
   "resources":[
@@ -78,10 +78,10 @@
     {"id":{"name":"Spr_player1","path":"sprites/Spr_player1/Spr_player1.yy",},},
     {"id":{"name":"Spr_player2","path":"sprites/Spr_player2/Spr_player2.yy",},},
     {"id":{"name":"Spr_player3","path":"sprites/Spr_player3/Spr_player3.yy",},},
+    {"id":{"name":"Spr_portal_historia","path":"sprites/Spr_portal_historia/Spr_portal_historia.yy",},},
     {"id":{"name":"Spr_portal_treino","path":"sprites/Spr_portal_treino/Spr_portal_treino.yy",},},
     {"id":{"name":"spr_quebravel","path":"sprites/spr_quebravel/spr_quebravel.yy",},},
     {"id":{"name":"Spr_tiro","path":"sprites/Spr_tiro/Spr_tiro.yy",},},
-    {"id":{"name":"Spr_portal_historia","path":"sprites/Spr_portal_historia/Spr_portal_historia.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
   ],
   "resourceType":"GMProject",

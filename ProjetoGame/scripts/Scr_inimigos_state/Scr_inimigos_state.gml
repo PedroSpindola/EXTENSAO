@@ -8,7 +8,7 @@ function Scr_inimigos_state_free(){
 	
 
 }
-function inimigos_dano(){
+function inimigos_dano(pontos){
 
 	if(place_meeting(x+hspd,y,Obj_player)){
 	
@@ -17,7 +17,7 @@ function inimigos_dano(){
 	if(vida<=0){
 	
 	instance_destroy();
-	
+	Obj_player.pontuacao += pontos;
 	}
 	
 	}

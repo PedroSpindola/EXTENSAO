@@ -2,6 +2,7 @@ hspd = 0
 move_dir=0
 move_spd=0;
 move_spd_max=10;
+valor_pontos=0;
 acc=1
 dcc=1
 
