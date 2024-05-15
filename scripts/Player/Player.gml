@@ -10,18 +10,37 @@ if(_move){
 
 move_dir= point_direction(0,0, key_right - key_left,0)
 move_spd = Approach(move_spd,move_spd_max,acc)
+sprite_index = Spr_player_walk
 	
 	}
 else{
 
 move_spd = Approach(move_spd,0,dcc)
+sprite_index = Spr_player_idle
 
 	}
 hspd = lengthdir_x(move_spd, move_dir)
 
 if place_meeting(x, y+1, obj_chao) and key_jump{
+	
 	vspd -= 20;
+
 	}
+	
+
+	
+if(!place_meeting(x, y+1,obj_chao)){
+	
+	if(vspd<0){
+	
+	sprite_index = Spr_player_jump
+	
+	}else{
+		
+	sprite_index = Spr_player_descendo
+	
+	}
+}
 	
 	if (mouse_check_button(mb_right)){
 		if(mouse_x < x) image_xscale = -1; 

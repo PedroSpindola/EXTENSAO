@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_chao",
-    "path":"sprites/spr_chao/spr_chao.yy",
+    "name":"spr_plataforma",
+    "path":"sprites/spr_plataforma/spr_plataforma.yy",
   },
   "spriteMaskId":null,
   "visible":true,
