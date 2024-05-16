@@ -30,6 +30,7 @@
     {"name":"Player","order":2,"path":"scripts/Player/Player.yy",},
     {"name":"Salvamento","order":3,"path":"scripts/Salvamento/Salvamento.yy",},
     {"name":"Tiro_inimigo","order":1,"path":"sounds/Tiro_inimigo/Tiro_inimigo.yy",},
+    {"name":"Spr_fundo","order":3,"path":"sprites/Spr_fundo/Spr_fundo.yy",},
     {"name":"Spr_hitbox","order":2,"path":"sprites/Spr_hitbox/Spr_hitbox.yy",},
     {"name":"Spr_inimigo","order":2,"path":"sprites/Spr_inimigo/Spr_inimigo.yy",},
     {"name":"spr_invisivel","order":4,"path":"sprites/spr_invisivel/spr_invisivel.yy",},
@@ -41,6 +42,7 @@
     {"name":"Spr_portal_historia","order":1,"path":"sprites/Spr_portal_historia/Spr_portal_historia.yy",},
     {"name":"spr_quebravel","order":3,"path":"sprites/spr_quebravel/spr_quebravel.yy",},
     {"name":"Spr_tiro","order":10,"path":"sprites/Spr_tiro/Spr_tiro.yy",},
+    {"name":"Sprite19","order":4,"path":"sprites/Sprite19/Sprite19.yy",},
     {"name":"Sprite7","order":1,"path":"sprites/Sprite7/Sprite7.yy",},
   ],
 }
