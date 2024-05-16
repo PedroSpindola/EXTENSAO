@@ -53,44 +53,14 @@ function PlayerStateAttack() {
 	sprite_index = Spr_player_attack;
 	if(image_index > 0){
 		if(!instance_exists(Obj_hitbox)){
-			instance_create_layer(x + (20 * image_xscale), y, Obj_hitbox);
+			instance_create_layer(x + (80 * image_xscale), y, layer, Obj_hitbox);
 		}	
 	}
 	sprite_index = Spr_player_attack;
 		if(image_index >= image_number - 1){
-		if(instance_exists(Obj_hitbox)) instance_destroy(Obj_hitbox)
+		if(instance_exists(Obj_hitbox)){ instance_destroy(Obj_hitbox)}
 		state = PlayerStateFree;
 
 	}
 
 }
-
-
-/*
-/*
-    var inimigos_na_hitbox = ds_list_create();
-    
-    var num_inimigos = instance_place_list(x, y, Obj_inimigo1, inimigos_na_hitbox, false);
-    
-    if (num_inimigos > 0) {
-        for (var i = 0; i < num_inimigos; i++) {
-            var inimigoID = inimigos_na_hitbox[| i];
-
-            if (ds_list_find_index(inimigos_atingidos, inimigoID) == -1) {
-                ds_list_add(inimigos_atingidos, inimigoID);
-                
-                with (inimigoID) {
-                    hp -= 10;
-                }
-            }
-        }
-    }
-
-
-    ds_list_destroy(inimigos_na_hitbox);
-
-  
-    if (fim_da_animacao()) {
-        state = PlayerState.FREE;
-    }
-	*/
