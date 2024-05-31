@@ -15,4 +15,3 @@ if(place_meeting(x, y + vspd, obj_chao)){
 	vspd = 0;
 }
 y += vspd;
-

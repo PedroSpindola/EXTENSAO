@@ -1,6 +1,7 @@
 event_inherited();
-vida=10;
+
 state();
+
 /*
 switch (state)
 {

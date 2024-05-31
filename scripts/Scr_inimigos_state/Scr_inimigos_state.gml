@@ -1,3 +1,5 @@
+
+{
 function Scr_inimigos_state_free(){
 
 	hspd=move_dir * move_spd
@@ -5,21 +7,18 @@ function Scr_inimigos_state_free(){
 	
 		move_dir*= -1;
 	}
-	
 
 }
 function inimigos_dano(pontos){
-if(vida<=0){
-	
-	instance_destroy();
+
 	if(place_meeting(x+hspd,y,Obj_player)){
-	
-//	vida--
-	//mudar o Obj do place_meeting para o obj da arma e do tiro
 	Obj_player.pontuacao += pontos;
-	}
-	
-	
+	vida--
+	//mudar o Obj do place_meeting para o obj da arma e do tiro
+	if(vida<=0){
+		instance_destroy();
+		
+		}
 	}
 
 }
@@ -48,5 +47,6 @@ function tiro(){
 		}
 	}
 
+}
 }
 

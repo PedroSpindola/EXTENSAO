@@ -13,3 +13,4 @@ dano_dir=0;
 dano_coice=4;
 dano_hora=0;
 dano_distancia=18;
+

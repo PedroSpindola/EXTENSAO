@@ -50,6 +50,8 @@ if(!place_meeting(x, y+1,obj_chao)){
 }
 
 function PlayerStateAttack() {
+	
+	
 	sprite_index = Spr_player_attack;
 	if(image_index > 0){
 		if(!instance_exists(Obj_hitbox)){
@@ -62,5 +64,15 @@ function PlayerStateAttack() {
 		state = PlayerStateFree;
 
 	}
+}
 
+function PlayerDead(){
+	if(sprite_index != Spr_player_dead){
+		sprite_index = Spr_player_dead;
+		hspd = 0;
+		vspd = 0;
+		x=x;
+		y=y;
+	}
+	
 }

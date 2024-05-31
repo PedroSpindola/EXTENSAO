@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"EXTENSAO",
   "resources":[
@@ -80,6 +80,7 @@
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},},
     {"id":{"name":"spr_plataforma","path":"sprites/spr_plataforma/spr_plataforma.yy",},},
     {"id":{"name":"Spr_player_attack","path":"sprites/Spr_player_attack/Spr_player_attack.yy",},},
+    {"id":{"name":"Spr_player_dead","path":"sprites/Spr_player_dead/Spr_player_dead.yy",},},
     {"id":{"name":"Spr_player_descendo","path":"sprites/Spr_player_descendo/Spr_player_descendo.yy",},},
     {"id":{"name":"Spr_player_idle","path":"sprites/Spr_player_idle/Spr_player_idle.yy",},},
     {"id":{"name":"Spr_player_jump","path":"sprites/Spr_player_jump/Spr_player_jump.yy",},},
