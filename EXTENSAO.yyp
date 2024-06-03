@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"EXTENSAO",
   "resources":[
@@ -50,6 +50,7 @@
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"Obj_entidades_parente","path":"objects/Obj_entidades_parente/Obj_entidades_parente.yy",},},
     {"id":{"name":"Obj_hitbox","path":"objects/Obj_hitbox/Obj_hitbox.yy",},},
+    {"id":{"name":"Obj_inimigo_voador","path":"objects/Obj_inimigo_voador/Obj_inimigo_voador.yy",},},
     {"id":{"name":"Obj_inimigo1","path":"objects/Obj_inimigo1/Obj_inimigo1.yy",},},
     {"id":{"name":"Obj_inimigo2","path":"objects/Obj_inimigo2/Obj_inimigo2.yy",},},
     {"id":{"name":"Obj_inimigos_parente","path":"objects/Obj_inimigos_parente/Obj_inimigos_parente.yy",},},

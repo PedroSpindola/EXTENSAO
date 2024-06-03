@@ -16,6 +16,7 @@
     {"name":"obj_chao_movel","order":2,"path":"objects/obj_chao_movel/obj_chao_movel.yy",},
     {"name":"Obj_entidades_parente","order":1,"path":"objects/Obj_entidades_parente/Obj_entidades_parente.yy",},
     {"name":"Obj_hitbox","order":2,"path":"objects/Obj_hitbox/Obj_hitbox.yy",},
+    {"name":"Obj_inimigo_voador","order":6,"path":"objects/Obj_inimigo_voador/Obj_inimigo_voador.yy",},
     {"name":"Obj_inimigo1","order":1,"path":"objects/Obj_inimigo1/Obj_inimigo1.yy",},
     {"name":"Obj_inimigo2","order":2,"path":"objects/Obj_inimigo2/Obj_inimigo2.yy",},
     {"name":"Obj_portal_treino","order":1,"path":"objects/Obj_portal_treino/Obj_portal_treino.yy",},
