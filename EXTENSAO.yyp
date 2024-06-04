@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"EXTENSAO",
   "resources":[
@@ -70,6 +70,9 @@
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},},
     {"id":{"name":"Salvamento","path":"scripts/Salvamento/Salvamento.yy",},},
     {"id":{"name":"Scr_inimigos_state","path":"scripts/Scr_inimigos_state/Scr_inimigos_state.yy",},},
+    {"id":{"name":"eletronic","path":"sounds/eletronic/eletronic.yy",},},
+    {"id":{"name":"eletronica_animada","path":"sounds/eletronica_animada/eletronica_animada.yy",},},
+    {"id":{"name":"Piano","path":"sounds/Piano/Piano.yy",},},
     {"id":{"name":"pulo_player","path":"sounds/pulo_player/pulo_player.yy",},},
     {"id":{"name":"Tiro_inimigo","path":"sounds/Tiro_inimigo/Tiro_inimigo.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
