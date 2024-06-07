@@ -71,8 +71,8 @@ function PlayerDead(){
 		sprite_index = Spr_player_dead;
 		hspd = 0;
 		vspd = 0;
-		x=x;
-		y=y;
+		x=hspd;
+		y=vspd;
 	}
 	
 }

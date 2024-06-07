@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_chao_invisivel",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_chao_movel","path":"objects/obj_chao_movel/obj_chao_movel.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_chao_invisivel",
   "overriddenProperties":[],
