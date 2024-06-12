@@ -4,7 +4,7 @@ key_right = keyboard_check(ord("D"));
 key_left = keyboard_check(ord("A"));
 //key_down = keyboard_check(ord("S"));
 var _move = key_right - key_left !=0;
-
+var solta_pulo = keyboard_check_released(ord("W"))
 if(_move){
 
 move_dir= point_direction(0,0, key_right - key_left,0)
@@ -24,8 +24,10 @@ if place_meeting(x, y+1, obj_chao) and key_jump{
 	
 	vspd -= 20;
 
-	}
-	
+}
+if(solta_pulo){
+	vspd +=5
+}
 
 	
 if(!place_meeting(x, y+1,obj_chao)){
