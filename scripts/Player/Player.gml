@@ -23,7 +23,7 @@ hspd = lengthdir_x(move_spd, move_dir)
 if place_meeting(x, y+1, obj_chao) and key_jump{
 	
 	vspd -= 20;
-
+	audio_play_sound(pulo_player, 2,false)
 }
 if(solta_pulo){
 	vspd +=5

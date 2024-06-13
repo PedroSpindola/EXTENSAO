@@ -37,7 +37,7 @@ function tiro(){
 
 			_xx = x + lengthdir_x(64, direcao_jogador);
 			_yy = y + lengthdir_y(64, direcao_jogador);
-
+			audio_play_sound(Tiro_inimigo, 2,false)
 			var _tiro = instance_create_layer(_xx,_yy,"Instances",Obj_tiro_inimigo);
 			_tiro.direction = direcao_jogador;
 			
