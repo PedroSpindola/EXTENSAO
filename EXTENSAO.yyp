@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"EXTENSAO",
   "resources":[
@@ -62,6 +62,7 @@
     {"id":{"name":"obj_quebravel","path":"objects/obj_quebravel/obj_quebravel.yy",},},
     {"id":{"name":"Obj_spawn_inimigo","path":"objects/Obj_spawn_inimigo/Obj_spawn_inimigo.yy",},},
     {"id":{"name":"Obj_tiro_inimigo","path":"objects/Obj_tiro_inimigo/Obj_tiro_inimigo.yy",},},
+    {"id":{"name":"Obj_controlador","path":"objects/Obj_controlador/Obj_controlador.yy",},},
     {"id":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room1a","path":"rooms/Room1a/Room1a.yy",},},

@@ -1,4 +1,7 @@
 function PlayerStateFree(){
+	 if (is_dead) {
+        return;  // Se o jogador estiver morto, não processa os controles de movimento
+    }
 key_jump = keyboard_check(ord("W"));
 key_right = keyboard_check(ord("D"));
 key_left = keyboard_check(ord("A"));
@@ -69,12 +72,9 @@ function PlayerStateAttack() {
 }
 
 function PlayerDead(){
-	if(sprite_index != Spr_player_dead){
-		sprite_index = Spr_player_dead;
-		hspd = 0;
-		vspd = 0;
-		x=hspd;
-		y=vspd;
-	}
+	sprite_index = Spr_player_dead;
+	hspd = 0;
+	vspd = 0;	
+	is_dead = true;
 	
 }

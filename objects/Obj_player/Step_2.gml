@@ -21,7 +21,6 @@ if (place_meeting(x, y + vspd, obj_chao)) {
 }
 y += vspd;
 
-// Verificar se a vida do jogador é menor ou igual a 0 e chamar a função PlayerDead se for o caso
 if (vida <= 0) {
-    PlayerDead();
+PlayerDead();
 }

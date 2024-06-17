@@ -26,6 +26,7 @@
     {"name":"obj_quebravel","order":1,"path":"objects/obj_quebravel/obj_quebravel.yy",},
     {"name":"Obj_spawn_inimigo","order":5,"path":"objects/Obj_spawn_inimigo/Obj_spawn_inimigo.yy",},
     {"name":"Obj_tiro_inimigo","order":4,"path":"objects/Obj_tiro_inimigo/Obj_tiro_inimigo.yy",},
+    {"name":"Obj_controlador","order":9,"path":"objects/Obj_controlador/Obj_controlador.yy",},
     {"name":"Room1","order":4,"path":"rooms/Room1/Room1.yy",},
     {"name":"Room1a","order":1,"path":"rooms/Room1a/Room1a.yy",},
     {"name":"Room1b","order":2,"path":"rooms/Room1b/Room1b.yy",},
