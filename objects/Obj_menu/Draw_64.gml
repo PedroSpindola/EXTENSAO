@@ -37,7 +37,7 @@ for(var i=0;i<op_max;i++){
 			
 			if(index==1){
 				
-			
+			room_goto(RoomQG);
 				
 			}
 			
