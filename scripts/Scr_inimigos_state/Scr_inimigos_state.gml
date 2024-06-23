@@ -1,5 +1,4 @@
 
-{
 function Scr_inimigos_state_free(){
 
 	hspd=move_dir * move_spd
@@ -48,5 +47,10 @@ function tiro(){
 	}
 
 }
+function distancia_player(){
+	
+
+	
+	
 }
 
