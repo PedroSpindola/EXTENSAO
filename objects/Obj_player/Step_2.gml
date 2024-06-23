@@ -22,4 +22,3 @@ if (place_meeting(x, y + vspd, obj_chao)) {
 y += vspd;
 
 
-

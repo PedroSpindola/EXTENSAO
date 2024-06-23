@@ -73,17 +73,6 @@ function PlayerStateAttack() {
 
 function PlayerDead(){
 	sprite_index = Spr_player_dead;
-	hspd = 0;
-	vspd = 0;	
-	is_dead = true;
-	
-	if(sprite_index == Spr_player_dead){
-	
- if (image_number == sprite_get_number(sprite_index)) {
-        room_goto(RoomQG);
 		
-	
-    }
-		
-}
+
 }

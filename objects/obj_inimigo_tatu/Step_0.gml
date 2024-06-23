@@ -17,7 +17,6 @@ if (jogador != noone) {
             preparando = true;
             contador = delay; // Iniciar o contador
 			  sprite_index = Spr_inimigoTatu;
-         
             if (jogador.x > x) {
                 direcao = 1; 
             } else if (jogador.x < x) {
@@ -39,14 +38,9 @@ if (jogador != noone) {
 
     if (correndo) {
         var new_x = x + (move_spd * direcao);
-
         if (!place_meeting(new_x, y, obj_chao)) {
             x = new_x;
-        } else {
-
-            correndo = false;
-            instance_destroy();
-        }
+        } 
     }
 
   
@@ -54,6 +48,5 @@ if (jogador != noone) {
         jogador.pontuacao -= 20;
         jogador.vida--;
         correndo = false;
-        instance_destroy();
     }
 }
