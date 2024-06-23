@@ -8,15 +8,12 @@ if (!is_dead) {
     }
 }
 
-if (vida <= 0) {
-    PlayerDead();
+if (vida <= 0 && player_morto == false) {
+	player_morto = true;
+	PlayerDead();
+	
 }
 
-if (sprite_index == Spr_player_dead) {
-    if (image_index >= image_number - 1) {
-        room_restart();
-    }
-}
 
 /*
 switch (state)

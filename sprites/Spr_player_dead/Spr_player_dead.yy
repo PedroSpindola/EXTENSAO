@@ -30,7 +30,7 @@
   ],
   "name":"Spr_player_dead",
   "nineSlice":null,
-  "origin":4,
+  "origin":7,
   "parent":{
     "name":"grupo_Spr_players",
     "path":"folders/Sprites/grupo_Spr_players.yy",
@@ -110,7 +110,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":36,
-    "yorigin":40,
+    "yorigin":80,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

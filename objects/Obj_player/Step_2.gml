@@ -22,12 +22,4 @@ if (place_meeting(x, y + vspd, obj_chao)) {
 y += vspd;
 
 
-if (vida <= 0) {
-PlayerDead();
 
-}
-if (vida <= 0) {
-    PlayerDead();
-	room_goto(RoomQG);
-
-}

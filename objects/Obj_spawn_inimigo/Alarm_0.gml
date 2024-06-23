@@ -4,7 +4,7 @@ var spawn_x = center_x;
 
 var spawn_y = 10;  // Ajuste conforme necessário para definir a altura do topo
 
-var tipo_inimigo = choose(obj_inimigo_tatu, Obj_inimigo_voador, Obj_inimigo1, Obj_inimigo2);
+tipo_inimigo = choose(obj_inimigo_tatu, Obj_inimigo_voador, Obj_inimigo1, Obj_inimigo2);
 
 // Tentativas para encontrar uma posição válida
 var attempts = 0;
@@ -12,7 +12,7 @@ while (place_meeting(spawn_x, spawn_y, all) && attempts < 100) {
     spawn_y += 1; // Incrementa a posição Y se já estiver ocupada
     attempts += 1;
 }
-
+teste(tipo_inimigo);
 if (attempts < 100) {
     // Verificar se o tipo_inimigo é realmente Obj_inimigo_voador
     if (tipo_inimigo == Obj_inimigo_voador) {
