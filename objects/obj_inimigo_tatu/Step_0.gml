@@ -2,7 +2,7 @@ event_inherited();
 
 var jogador = instance_nearest(x, y, Obj_player);
 
-// Verificar se a instância do jogador foi encontrada (gpteco que fez isso aq)
+
 if (jogador != noone) {
  
     var distancia_jogador_x = abs(jogador.x - x);
@@ -24,8 +24,6 @@ if (jogador != noone) {
             }
         }
     }
-
- 
     if (preparando) {
         contador--;
         if (contador <= 0) {
@@ -47,6 +45,10 @@ if (jogador != noone) {
     if (place_meeting(x, y, Obj_player)) {
         jogador.pontuacao -= 20;
         jogador.vida--;
-        correndo = false;
     }
+	if(correndo && place_meeting(new_x,y,obj_chao)){
+		correndo = false;
+        preparando = false;
+        sprite_index = Spr_inimigoTatu;
+	}
 }
