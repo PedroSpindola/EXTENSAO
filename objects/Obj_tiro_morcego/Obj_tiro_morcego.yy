@@ -1,14 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_tiro_inimigo",
+  "%Name":"Obj_tiro_morcego",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_tiro_inimigo",
+  "name":"Obj_tiro_morcego",
   "overriddenProperties":[],
   "parent":{
     "name":"grupo_Obj_inimigos",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_tiro",
-    "path":"sprites/Spr_tiro/Spr_tiro.yy",
+    "name":"Spr_tiroMorcego",
+    "path":"sprites/Spr_tiroMorcego/Spr_tiroMorcego.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -29,23 +29,26 @@ function tiro(){
 	if(distancia<300){
 
 		hspd=0
-		
 		if(global.tempo_tiro==true){
 			
 			var direcao_jogador = point_direction(x, y, Obj_player.x, Obj_player.y);
 
 			_xx = x + lengthdir_x(64, direcao_jogador);
 			_yy = y + lengthdir_y(64, direcao_jogador);
-			audio_play_sound(Tiro_inimigo, 2,false)
-			var _tiro = instance_create_layer(_xx,_yy,"Instances",Obj_tiro_inimigo);
-			_tiro.direction = direcao_jogador;
+			sprite_index = Spr_ataqueMorcego;
 			
-			global.tempo_tiro=false;
-			alarm[0] = room_speed * 1
 			
 		}
+		sprite_index = Spr_inimigoMorcego;
 	}
 
+}
+function atirar(){
+	audio_play_sound(Tiro_inimigo, 2,false);
+	var _tiro = instance_create_layer(_xx,_yy,"Instances",Obj_tiro_morcego);
+	_tiro.direction = direcao_jogador;	
+	global.tempo_tiro=false;
+	alarm[0] = room_speed * 1
 }
 function distancia_player(){
 	
