@@ -7,10 +7,10 @@
     {"name":"grupo_Obj_portal","order":15,"path":"folders/Objetos/grupo_Obj_portal.yy",},
     {"name":"grupo_Spr_blocos","order":9,"path":"folders/Sprites/grupo_Spr_blocos.yy",},
     {"name":"grupo_Spr_inimigos","order":8,"path":"folders/Sprites/grupo_Spr_inimigos.yy",},
+    {"name":"grupo_Spr_morcego","order":20,"path":"folders/Sprites/grupo_Spr_morcego.yy",},
     {"name":"grupo_Spr_players","order":7,"path":"folders/Sprites/grupo_Spr_players.yy",},
     {"name":"grupo_Spr_portais","order":12,"path":"folders/Sprites/grupo_Spr_portais.yy",},
     {"name":"grupo_Spr_testes","order":13,"path":"folders/Sprites/grupo_Spr_testes.yy",},
-    {"name":"grupo_Spr_morcego","order":20,"path":"folders/Sprites/grupo_Spr_morcego.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Obj_boneco","order":16,"path":"objects/Obj_boneco/Obj_boneco.yy",},
