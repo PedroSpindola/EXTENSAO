@@ -32,6 +32,7 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"grupo_Spr_blocos","folderPath":"folders/Sprites/grupo_Spr_blocos.yy","name":"grupo_Spr_blocos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"grupo_Spr_inimigos","folderPath":"folders/Sprites/grupo_Spr_inimigos.yy","name":"grupo_Spr_inimigos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"tatu","folderPath":"folders/Sprites/grupo_Spr_inimigos/tatu.yy","name":"tatu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"grupo_Spr_morcego","folderPath":"folders/Sprites/grupo_Spr_morcego.yy","name":"grupo_Spr_morcego","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"grupo_Spr_players","folderPath":"folders/Sprites/grupo_Spr_players.yy","name":"grupo_Spr_players","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"grupo_Spr_portais","folderPath":"folders/Sprites/grupo_Spr_portais.yy","name":"grupo_Spr_portais","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -41,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.0.157",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"EXTENSAO",
   "resources":[
@@ -91,7 +92,8 @@
     {"id":{"name":"Spr_inimigoBase","path":"sprites/Spr_inimigoBase/Spr_inimigoBase.yy",},},
     {"id":{"name":"Spr_inimigoMorcego","path":"sprites/Spr_inimigoMorcego/Spr_inimigoMorcego.yy",},},
     {"id":{"name":"Spr_inimigoTatu","path":"sprites/Spr_inimigoTatu/Spr_inimigoTatu.yy",},},
-    {"id":{"name":"Spr_inimigoTatuCorrendo","path":"sprites/Spr_inimigoTatuCorrendo/Spr_inimigoTatuCorrendo.yy",},},
+    {"id":{"name":"Spr_inimigoTatuAlerta","path":"sprites/Spr_inimigoTatuAlerta/Spr_inimigoTatuAlerta.yy",},},
+    {"id":{"name":"Spr_inimigoTatuRolando","path":"sprites/Spr_inimigoTatuRolando/Spr_inimigoTatuRolando.yy",},},
     {"id":{"name":"spr_invisivel","path":"sprites/spr_invisivel/spr_invisivel.yy",},},
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},},
     {"id":{"name":"spr_plataforma","path":"sprites/spr_plataforma/spr_plataforma.yy",},},

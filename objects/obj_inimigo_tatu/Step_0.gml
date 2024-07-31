@@ -16,7 +16,7 @@ if (jogador != noone) {
         if (!preparando && !correndo) {
             preparando = true;
             contador = delay; // Iniciar o contador
-			  sprite_index = Spr_inimigoTatu;
+			  sprite_index = Spr_inimigoTatuRolando;
             if (jogador.x > x) {
                 direcao = 1; 
             } else if (jogador.x < x) {
@@ -29,7 +29,7 @@ if (jogador != noone) {
         if (contador <= 0) {
             preparando = false;
             correndo = true;
-            sprite_index = Spr_inimigoTatuCorrendo; 
+            sprite_index = Spr_inimigoTatu; 
         }
     }
 
@@ -49,6 +49,6 @@ if (jogador != noone) {
 	if(correndo && place_meeting(new_x,y,obj_chao)){
 		correndo = false;
         preparando = false;
-        sprite_index = Spr_inimigoTatu;
+        sprite_index = Spr_inimigoTatuAlerta;
 	}
 }
