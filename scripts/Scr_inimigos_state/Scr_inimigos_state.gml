@@ -1,6 +1,5 @@
 
 function Scr_inimigos_state_free(){
-
 	hspd=move_dir * move_spd
 	if(place_meeting(x+hspd, y, obj_chao)){
 	
