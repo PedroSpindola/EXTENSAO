@@ -1,6 +1,7 @@
 
 function Scr_inimigos_state_free(){
-	hspd=move_dir * move_spd
+
+	hspd= move_spd*move_dir;
 	if(place_meeting(x+hspd, y, obj_chao)){
 	
 		move_dir*= -1;
@@ -37,9 +38,10 @@ function tiro(){
 
 				_xx = x + lengthdir_x(64, direcao_jogador);
 				_yy = y + lengthdir_y(64, direcao_jogador);
+				
 				audio_play_sound(Tiro_inimigo, 2,false);
 				var _tiro = instance_create_layer(_xx,_yy,"Instances",Obj_tiro_morcego);
-				_tiro.direction = direcao_jogador;	
+				_tiro.direction = direcao_jogador;
 				global.tempo_tiro=false;
 				alarm[0] = room_speed * 3;
 				//sprite_index = Spr_inimigoMorcego;

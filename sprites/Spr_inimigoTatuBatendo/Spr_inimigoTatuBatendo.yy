@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"Spr_inimigoTatuBatendo",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
-  "bbox_left":13,
-  "bbox_right":51,
+  "bbox_left":19,
+  "bbox_right":44,
   "bbox_top":38,
   "collisionKind":1,
   "collisionTolerance":0,

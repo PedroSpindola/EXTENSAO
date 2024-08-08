@@ -1,5 +1,6 @@
-if(hspd != 0) image_xscale = sign(hspd);
-
+if (hspd != 0) {
+	image_xscale = sign(hspd);
+	}
 if(place_meeting(x + hspd, y,obj_chao)){
 	while(!place_meeting(x + sign(hspd), y, obj_chao)){
 		x += sign(hspd);

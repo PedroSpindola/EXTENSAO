@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"grupo_Spr_morcego",
-    "path":"folders/Sprites/grupo_Spr_morcego.yy",
+    "path":"folders/Sprites/grupo_Spr_inimigos/grupo_Spr_morcego.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

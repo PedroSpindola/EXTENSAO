@@ -1,7 +1,6 @@
 event_inherited();
 Scr_inimigos_state_free()
-image_xscale = 2.0
-image_yscale = 2.0
+
 var jogador = instance_nearest(x, y, Obj_player);
 if (jogador != noone) {
     var distancia_jogador_x = abs(jogador.x - x);
@@ -15,9 +14,12 @@ if (jogador != noone) {
             preparando = true;
             contador = delay; // Iniciar o contador
             if (jogador.x > x) {
-                direcao = 1; 
+                direcao = 1;
+				
+				
             } else if (jogador.x < x) {
                 direcao = -1; 
+				
             }
 			image_index = 0;
             sprite_index = Spr_inimigoTatuAlerta;
@@ -48,7 +50,8 @@ if (jogador != noone) {
     }
 	if(correndo && place_meeting(new_x,y,obj_chao)){
 		show_debug_message(x)
-		move_spd=0;
+		hspd=0;
+		
         sprite_index = Spr_inimigoTatuBatendo;
 		//x = 1000;
 	}

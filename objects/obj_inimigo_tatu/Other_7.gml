@@ -7,6 +7,7 @@ if(sprite_index == Spr_inimigoTatuAlerta){
 if(sprite_index == Spr_inimigoTatuBatendo){
 	preparando = false;
 	correndo = false;
+	
 	//preparado();
 	
 	sprite_index = Spr_inimigoTatu;
