@@ -49,9 +49,9 @@ if (jogador != noone) {
         jogador.vida--;
     }
 	if(correndo && place_meeting(new_x,y,obj_chao)){
-		show_debug_message(x)
-		hspd=0;
-		
+		move_dir=0;
+		move_spd=0;
+		show_debug_message(move_spd);
         sprite_index = Spr_inimigoTatuBatendo;
 		//x = 1000;
 	}

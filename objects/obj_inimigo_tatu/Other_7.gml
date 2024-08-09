@@ -11,6 +11,7 @@ if(sprite_index == Spr_inimigoTatuBatendo){
 	//preparado();
 	
 	sprite_index = Spr_inimigoTatu;
+	move_dir=1;
 	move_spd=4;
 }
 //if(sprite_index == Spr_inimigoTatu){
