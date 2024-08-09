@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"Spr_inimigoTatuRolando",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
   "bbox_left":6,
   "bbox_right":57,
