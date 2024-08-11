@@ -34,7 +34,7 @@
   ],
   "name":"Spr_ataqueMorcego",
   "nineSlice":null,
-  "origin":8,
+  "origin":7,
   "parent":{
     "name":"grupo_Spr_morcego",
     "path":"folders/Sprites/grupo_Spr_inimigos/grupo_Spr_morcego.yy",
@@ -125,7 +125,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":37,
+    "xorigin":18,
     "yorigin":32,
   },
   "swatchColours":null,

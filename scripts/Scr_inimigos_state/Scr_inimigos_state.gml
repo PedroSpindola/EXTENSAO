@@ -6,6 +6,16 @@ function Scr_inimigos_state_free(){
 	
 		move_dir*= -1;
 	}
+	if(object_index == Obj_inimigo2){
+
+	sprite_index= Spr_andandoAtirador;
+	
+	}else if(object_index == Obj_inimigo_voador){
+	
+	sprite_index = Spr_inimigoMorcego	
+	
+}
+
 
 }
 function inimigos_dano(pontos){
@@ -22,7 +32,6 @@ function inimigos_dano(pontos){
 
 }
 function tiro(){
-	 
 	
 	var distancia=point_distance(x,y, Obj_player.x, Obj_player.y)
 	
@@ -32,12 +41,25 @@ function tiro(){
 		if(global.tempo_tiro==true){
 			
 			
-			sprite_index = Spr_ataqueMorcego;
-			if(!global.atacando == true){
+			
+			if(global.atacando == true){
 				var direcao_jogador = point_direction(x, y, Obj_player.x, Obj_player.y);
 
 				_xx = x + lengthdir_x(64, direcao_jogador);
 				_yy = y + lengthdir_y(64, direcao_jogador);
+				
+				if(object_index == Obj_inimigo2){
+	
+					sprite_index = Spr_ratoAtirando;
+	
+				}
+				else if(object_index == Obj_inimigo_voador){
+
+					sprite_index = Spr_ataqueMorcego;
+					
+				}
+	
+
 				
 				audio_play_sound(Tiro_inimigo, 2,false);
 				var _tiro = instance_create_layer(_xx,_yy,"Instances",Obj_tiro_morcego);
@@ -47,7 +69,7 @@ function tiro(){
 				//sprite_index = Spr_inimigoMorcego;
 			}
 		}
-		//
+		
 	}
 
 }

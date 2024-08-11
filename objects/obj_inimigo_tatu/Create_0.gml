@@ -8,3 +8,4 @@ move_spd=4;
 preparando = false;
 delay = 60; //60 fps, 1 segundo
 contador = 0; // Contador pro delay do ataque de rolamento
+

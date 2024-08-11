@@ -67,6 +67,7 @@
     {"name":"Spr_player_walk","order":7,"path":"sprites/Spr_player_walk/Spr_player_walk.yy",},
     {"name":"Spr_portal_historia","order":1,"path":"sprites/Spr_portal_historia/Spr_portal_historia.yy",},
     {"name":"spr_quebravel","order":3,"path":"sprites/spr_quebravel/spr_quebravel.yy",},
+    {"name":"Spr_ratoAtirando","order":1,"path":"sprites/Spr_ratoAtirando/Spr_ratoAtirando.yy",},
     {"name":"Spr_sacopancada","order":15,"path":"sprites/Spr_sacopancada/Spr_sacopancada.yy",},
     {"name":"Spr_tilesTreino","order":19,"path":"sprites/Spr_tilesTreino/Spr_tilesTreino.yy",},
     {"name":"Spr_tiro","order":10,"path":"sprites/Spr_tiro/Spr_tiro.yy",},
