@@ -44,8 +44,8 @@
   },
   "origin":7,
   "parent":{
-    "name":"ratoburro",
-    "path":"folders/Sprites/grupo_Spr_inimigos/ratoburro.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

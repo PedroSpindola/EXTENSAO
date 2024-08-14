@@ -6,7 +6,7 @@ valor_pontos=10;
 
 state_andando = function(){
 		
-	
+	sprite_index = Spr_ratoBurro;
 	hspd=move_dir * move_spd
 	
 	if(place_meeting(x+hspd, y, obj_chao)){
