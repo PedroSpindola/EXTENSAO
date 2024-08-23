@@ -7,6 +7,7 @@ is_dead = false;
 state = PlayerStateFree;
 inimigos_atingidos = ds_list_create();
 player_morto = false;
+moedas = 0;
 /*
 enum PlayerState 
 {
