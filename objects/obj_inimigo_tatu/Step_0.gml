@@ -51,8 +51,11 @@ if (jogador != noone) {
 	if(correndo && place_meeting(new_x,y,obj_chao)){
 		move_dir=0;
 		move_spd=0;
+
 		show_debug_message(move_spd);
         sprite_index = Spr_inimigoTatuBatendo;
+		
 		//x = 1000;
+
 	}
 }
