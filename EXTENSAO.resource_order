@@ -16,6 +16,7 @@
     {"name":"grupo_Spr_testes","order":5,"path":"folders/Sprites/grupo_Spr_testes.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Obj_bala","order":3,"path":"objects/Obj_bala/Obj_bala.yy",},
     {"name":"Obj_boneco","order":16,"path":"objects/Obj_boneco/Obj_boneco.yy",},
     {"name":"obj_chao_invisivel","order":3,"path":"objects/obj_chao_invisivel/obj_chao_invisivel.yy",},
     {"name":"obj_chao_movel","order":2,"path":"objects/obj_chao_movel/obj_chao_movel.yy",},

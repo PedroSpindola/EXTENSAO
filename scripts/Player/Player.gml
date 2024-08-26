@@ -1,6 +1,6 @@
 function PlayerStateFree(){
 	 if (is_dead) {
-        return;  // Se o jogador estiver morto, não processa os controles de movimento
+        return;  // Se o jogador estiver morto, não processa os controles de movimento. Pedro A: mas se o jogar estiver no modo zumbi?
     }
 key_jump = keyboard_check(ord("W"));
 key_right = keyboard_check(ord("D"));
@@ -52,8 +52,14 @@ if(!place_meeting(x, y+1,obj_chao)){
 	image_index = 0;
     state = PlayerStateAttack;
 	}
+	if (mouse_check_button_released(mb_left)){
+		
+		state = PlayerStateTiro;
+	
+	}
+	
 }
-
+	
 function PlayerStateAttack() {
 	
 	
@@ -69,6 +75,18 @@ function PlayerStateAttack() {
 		state = PlayerStateFree;
 
 	}
+}
+function PlayerStateTiro(){
+	
+	direcao_bala = point_direction(x,y,mouse_x,mouse_y);
+	
+	_xx = x + lengthdir_x(64, Obj_player);
+	_yy = y + lengthdir_y(64, Obj_player);
+				
+	audio_play_sound(Tiro_inimigo, 2,false);
+	var _tiro = instance_create_layer(_xx,_yy,"Instances",Obj_bala);
+	_tiro.direction = direcao_bala;
+	state = PlayerStateFree;
 }
 
 function PlayerDead(){

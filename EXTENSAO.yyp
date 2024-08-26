@@ -44,11 +44,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"EXTENSAO",
   "resources":[
     {"id":{"name":"Ft_menu","path":"fonts/Ft_menu/Ft_menu.yy",},},
+    {"id":{"name":"Obj_bala","path":"objects/Obj_bala/Obj_bala.yy",},},
     {"id":{"name":"Obj_boneco","path":"objects/Obj_boneco/Obj_boneco.yy",},},
     {"id":{"name":"obj_chao_invisivel","path":"objects/obj_chao_invisivel/obj_chao_invisivel.yy",},},
     {"id":{"name":"obj_chao_movel","path":"objects/obj_chao_movel/obj_chao_movel.yy",},},

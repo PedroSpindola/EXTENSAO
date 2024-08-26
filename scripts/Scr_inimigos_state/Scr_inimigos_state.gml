@@ -20,9 +20,8 @@ function Scr_inimigos_state_free(){
 }
 function inimigos_dano(pontos){
 
-	if(place_meeting(x+hspd,y,Obj_hitbox)){
+	if(place_meeting(x+hspd,y,Obj_hitbox) or place_meeting(x+hspd,y,Obj_bala)){
 	Obj_player.pontuacao += pontos;
-	vida--
 	//mudar o Obj do place_meeting para o obj da arma e do tiro
 	if(vida<=0){
 		instance_destroy();

@@ -1,3 +1,5 @@
+speed = 10;
+
 collision_list = ds_list_create(); //lista da colisão dos inimigos
 hitbox_list = ds_list_create(); //lista dos inimigos que ja tomaram dano no ataque
 var c = instance_place_list(x,y,Obj_inimigos_parente,collision_list,false);
@@ -8,7 +10,7 @@ if(c > 0){
 		if(!ds_list_find_value(hitbox_list,target)){
 			ds_list_add(hitbox_list, target);
 		with(target){
-			vida = vida - 100;
+			vida = vida - 10;
 			
 			}
 		} 
