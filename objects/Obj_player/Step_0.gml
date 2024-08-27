@@ -13,8 +13,8 @@ if (!is_dead) {
 	hspd = 0;
 	vspd = 0;
 }
-
-
+usa_arma();
+joga_arma();
 
 
 

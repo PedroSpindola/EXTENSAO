@@ -1,11 +1,13 @@
 {
   "FolderOrderSettings":[
     {"name":"Conjuntos de tiles","order":6,"path":"folders/Cenas/Conjuntos de tiles.yy",},
+    {"name":"grupo_Obj_armas","order":18,"path":"folders/Objetos/grupo_Obj_armas.yy",},
     {"name":"grupo_Obj_chao","order":11,"path":"folders/Objetos/grupo_Obj_chao.yy",},
     {"name":"grupo_Obj_funcoes","order":14,"path":"folders/Objetos/grupo_Obj_funcoes.yy",},
     {"name":"grupo_Obj_inimigos","order":12,"path":"folders/Objetos/grupo_Obj_inimigos.yy",},
     {"name":"grupo_Obj_player","order":13,"path":"folders/Objetos/grupo_Obj_player.yy",},
     {"name":"grupo_Obj_portal","order":15,"path":"folders/Objetos/grupo_Obj_portal.yy",},
+    {"name":"grupo_Spr_armas","order":14,"path":"folders/Sprites/grupo_Spr_armas.yy",},
     {"name":"grupo_Spr_blocos","order":2,"path":"folders/Sprites/grupo_Spr_blocos.yy",},
     {"name":"grupo_Spr_inimigos","order":1,"path":"folders/Sprites/grupo_Spr_inimigos.yy",},
     {"name":"grupo_Spr_morcego","order":2,"path":"folders/Sprites/grupo_Spr_inimigos/grupo_Spr_morcego.yy",},
@@ -33,6 +35,7 @@
     {"name":"obj_quebravel","order":1,"path":"objects/obj_quebravel/obj_quebravel.yy",},
     {"name":"Obj_spawn_inimigo","order":5,"path":"objects/Obj_spawn_inimigo/Obj_spawn_inimigo.yy",},
     {"name":"Obj_tiro_morcego","order":4,"path":"objects/Obj_tiro_morcego/Obj_tiro_morcego.yy",},
+    {"name":"tiro2","order":4,"path":"objects/tiro2/tiro2.yy",},
     {"name":"Room1","order":4,"path":"rooms/Room1/Room1.yy",},
     {"name":"Room1a","order":1,"path":"rooms/Room1a/Room1a.yy",},
     {"name":"Room1b","order":2,"path":"rooms/Room1b/Room1b.yy",},

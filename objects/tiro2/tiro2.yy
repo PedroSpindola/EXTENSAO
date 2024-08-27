@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_inimigo1",
+  "%Name":"tiro2",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_inimigo1",
+  "name":"tiro2",
   "overriddenProperties":[],
   "parent":{
-    "name":"grupo_Obj_inimigos",
-    "path":"folders/Objetos/grupo_Obj_inimigos.yy",
+    "name":"grupo_Obj_player",
+    "path":"folders/Objetos/grupo_Obj_player.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_inimigos_parente",
-    "path":"objects/Obj_inimigos_parente/Obj_inimigos_parente.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_ratoBurro",
-    "path":"sprites/Spr_ratoBurro/Spr_ratoBurro.yy",
+    "name":"Spr_tiro",
+    "path":"sprites/Spr_tiro/Spr_tiro.yy",
   },
   "spriteMaskId":null,
   "visible":true,

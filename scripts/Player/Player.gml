@@ -46,17 +46,17 @@ if(!place_meeting(x, y+1,obj_chao)){
 	}
 }
 	
-	if (mouse_check_button(mb_right)){
-		if(mouse_x < x) image_xscale = -1; 
-	else image_xscale = 1;
-	image_index = 0;
-    state = PlayerStateAttack;
-	}
-	if (mouse_check_button_released(mb_left)){
+	//if (mouse_check_button(mb_right)){
+		//if(mouse_x < x) image_xscale = -1; 
+	//else image_xscale = 1;
+	//image_index = 0;
+    //state = PlayerStateAttack;
+	//}
+	//if (mouse_check_button_released(mb_left)){
 		
-		state = PlayerStateTiro;
+	//	state = PlayerStateTiro;
 	
-	}
+	//}
 	
 }
 	
@@ -76,18 +76,18 @@ function PlayerStateAttack() {
 
 	}
 }
-function PlayerStateTiro(){
+//function PlayerStateTiro(){
 	
-	direcao_bala = point_direction(x,y,mouse_x,mouse_y);
+	//direcao_bala = point_direction(x,y,mouse_x,mouse_y);
 	
-	_xx = x + lengthdir_x(64, Obj_player);
-	_yy = y + lengthdir_y(64, Obj_player);
+	//_xx = x + lengthdir_x(64, Obj_player);
+	//_yy = y + lengthdir_y(64, Obj_player);
 				
-	audio_play_sound(Tiro_inimigo, 2,false);
-	var _tiro = instance_create_layer(_xx,_yy,"Instances",Obj_bala);
-	_tiro.direction = direcao_bala;
-	state = PlayerStateFree;
-}
+	//audio_play_sound(Tiro_inimigo, 2,false);
+	//var _tiro = instance_create_layer(_xx,_yy,"Instances",Obj_bala);
+	//_tiro.direction = direcao_bala;
+	//state = PlayerStateFree;
+//}
 
 function PlayerDead(){
 	sprite_index = Spr_player_dead;
