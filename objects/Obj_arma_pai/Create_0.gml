@@ -5,7 +5,7 @@ image_yscale = 0.5;
 
 atirar = false;
 delay_tiro = 0;
-
+self.bala= Obj_bala;
 atirando = function(){
 	if(atirar){
 		delay_tiro--;
