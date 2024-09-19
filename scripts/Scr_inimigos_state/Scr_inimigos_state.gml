@@ -61,7 +61,7 @@ function tiro(){
 	
 
 				
-				audio_play_sound(Tiro_inimigo, 2,false);
+				Obj_som.Som_tiroInimigo.play = true;
 				var _tiro = instance_create_layer(_xx,_yy,"Instances",Obj_tiro_morcego);
 				_tiro.direction = direcao_jogador;
 				global.tempo_tiro=false;

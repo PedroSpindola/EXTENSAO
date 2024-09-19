@@ -12,8 +12,8 @@
   "duration":1.332208,
   "name":"Tiro_inimigo",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"sfx",
+    "path":"folders/Sons/sfx.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

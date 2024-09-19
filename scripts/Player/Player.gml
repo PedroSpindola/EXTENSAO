@@ -26,7 +26,7 @@ hspd = lengthdir_x(move_spd, move_dir)
 if place_meeting(x, y+1, obj_chao) and key_jump{
 	
 	vspd -= 20;
-	audio_play_sound(pulo_player, 2,false)
+	Obj_som.sfx_pulo.play = true
 }
 if(solta_pulo){
 	vspd +=5
@@ -46,12 +46,13 @@ if(!place_meeting(x, y+1,obj_chao)){
 	}
 }
 	
-	//if (mouse_check_button(mb_right)){
-		//if(mouse_x < x) image_xscale = -1; 
-	//else image_xscale = 1;
-	//image_index = 0;
-    //state = PlayerStateAttack;
-	//}
+	if (mouse_check_button(mb_right)){
+		if(mouse_x < x) image_xscale = -1; 
+	else image_xscale = 1;
+	image_index = 0;
+	Obj_som.Sfx_ataquebasico.play = true
+    state = PlayerStateAttack;
+	}
 	//if (mouse_check_button_released(mb_left)){
 		
 	//	state = PlayerStateTiro;

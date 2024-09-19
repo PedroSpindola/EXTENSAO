@@ -12,8 +12,8 @@
   "duration":82.28573,
   "name":"eletronic",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"musica",
+    "path":"folders/Sons/musica.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

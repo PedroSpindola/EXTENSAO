@@ -12,8 +12,8 @@
   "duration":13.6,
   "name":"eletronica_animada",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"musica",
+    "path":"folders/Sons/musica.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":34.0,
   "name":"Piano",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"musica",
+    "path":"folders/Sons/musica.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
