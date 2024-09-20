@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 image_xscale = 0.5;
 image_yscale = 0.5;
-
+alarm[0]= 60 * 5;
 atirar = false;
 delay_tiro = 0;
 self.bala= Obj_bala;

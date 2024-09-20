@@ -36,6 +36,7 @@
     {"name":"Obj_portal_treino","order":1,"path":"objects/Obj_portal_treino/Obj_portal_treino.yy",},
     {"name":"obj_quebravel","order":1,"path":"objects/obj_quebravel/obj_quebravel.yy",},
     {"name":"Obj_som","order":19,"path":"objects/Obj_som/Obj_som.yy",},
+    {"name":"Obj_spawn_arma","order":1,"path":"objects/Obj_spawn_arma/Obj_spawn_arma.yy",},
     {"name":"Obj_spawn_inimigo","order":5,"path":"objects/Obj_spawn_inimigo/Obj_spawn_inimigo.yy",},
     {"name":"Obj_tiro_morcego","order":4,"path":"objects/Obj_tiro_morcego/Obj_tiro_morcego.yy",},
     {"name":"Room1","order":4,"path":"rooms/Room1/Room1.yy",},

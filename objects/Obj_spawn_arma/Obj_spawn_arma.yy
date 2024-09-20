@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_bala",
+  "%Name":"Obj_spawn_arma",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_bala",
+  "name":"Obj_spawn_arma",
   "overriddenProperties":[],
   "parent":{
-    "name":"grupo_Obj_player",
-    "path":"folders/Objetos/grupo_Obj_player.yy",
+    "name":"grupo_Obj_armas",
+    "path":"folders/Objetos/grupo_Obj_armas.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_tiro",
-    "path":"sprites/Spr_tiro/Spr_tiro.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

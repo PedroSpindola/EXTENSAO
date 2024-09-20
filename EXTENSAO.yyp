@@ -50,7 +50,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"EXTENSAO",
   "resources":[
@@ -75,6 +75,7 @@
     {"id":{"name":"Obj_portal_treino","path":"objects/Obj_portal_treino/Obj_portal_treino.yy",},},
     {"id":{"name":"obj_quebravel","path":"objects/obj_quebravel/obj_quebravel.yy",},},
     {"id":{"name":"Obj_som","path":"objects/Obj_som/Obj_som.yy",},},
+    {"id":{"name":"Obj_spawn_arma","path":"objects/Obj_spawn_arma/Obj_spawn_arma.yy",},},
     {"id":{"name":"Obj_spawn_inimigo","path":"objects/Obj_spawn_inimigo/Obj_spawn_inimigo.yy",},},
     {"id":{"name":"Obj_tiro_morcego","path":"objects/Obj_tiro_morcego/Obj_tiro_morcego.yy",},},
     {"id":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
