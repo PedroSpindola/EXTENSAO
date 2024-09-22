@@ -50,7 +50,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"EXTENSAO",
   "resources":[
@@ -74,10 +74,12 @@
     {"id":{"name":"Obj_portal_historia","path":"objects/Obj_portal_historia/Obj_portal_historia.yy",},},
     {"id":{"name":"Obj_portal_treino","path":"objects/Obj_portal_treino/Obj_portal_treino.yy",},},
     {"id":{"name":"obj_quebravel","path":"objects/obj_quebravel/obj_quebravel.yy",},},
+    {"id":{"name":"Obj_sensor","path":"objects/Obj_sensor/Obj_sensor.yy",},},
     {"id":{"name":"Obj_som","path":"objects/Obj_som/Obj_som.yy",},},
     {"id":{"name":"Obj_spawn_arma","path":"objects/Obj_spawn_arma/Obj_spawn_arma.yy",},},
     {"id":{"name":"Obj_spawn_inimigo","path":"objects/Obj_spawn_inimigo/Obj_spawn_inimigo.yy",},},
     {"id":{"name":"Obj_tiro_morcego","path":"objects/Obj_tiro_morcego/Obj_tiro_morcego.yy",},},
+    {"id":{"name":"Obj_transicao","path":"objects/Obj_transicao/Obj_transicao.yy",},},
     {"id":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room1a","path":"rooms/Room1a/Room1a.yy",},},
@@ -145,8 +147,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"roomId":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
+    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"RoomQG","path":"rooms/RoomQG/RoomQG.yy",},},
     {"roomId":{"name":"Room1a","path":"rooms/Room1a/Room1a.yy",},},

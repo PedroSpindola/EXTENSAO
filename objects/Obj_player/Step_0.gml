@@ -1,4 +1,5 @@
 event_inherited();
+if(instance_exists(Obj_transicao)) exit
 if(vida<=0){
 	is_dead = true;
 }
