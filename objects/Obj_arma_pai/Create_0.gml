@@ -5,6 +5,7 @@ image_yscale = 0.5;
 alarm[0]= 60 * 5;
 atirar = false;
 delay_tiro = 0;
+em_uso = false;
 self.bala= Obj_bala;
 atirando = function(){
 	if(atirar){

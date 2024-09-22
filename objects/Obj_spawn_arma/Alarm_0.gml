@@ -18,5 +18,5 @@ if (total_weapons > 0) {
             break;
         }
     }
-    alarm[0] = 60 * 5;
+    alarm[0] = 60 * 3;
 }

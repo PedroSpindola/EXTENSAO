@@ -1,3 +1,5 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-instance_destroy();
+if(em_uso == false){
+	instance_destroy();
+}
