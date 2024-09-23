@@ -1,19 +1,33 @@
 event_inherited();
-if(instance_exists(Obj_transicao)) exit
-if(vida<=0){
-	is_dead = true;
+
+if(vida>0){
+
+	state();
+	
+}
+else{
+
+	is_dead = true	
+	if(is_dead){
+		
+		
+		sprite_index = Spr_player_dead
+		hspd = 0
+		vspd = 0
+		
+		if(Obj_player.image_index >= Obj_player.image_number -1){
+			
+			is_dead = false	
+			
+			room_goto(RoomQG)
+			Obj_player.x= 224
+			Obj_player.y = 320
+			vida = 1 
+			
+		}
+	}
 }
 
-if (!is_dead) {
-    // Chama a função de estado, se ela existir
-    if (is_callable(state)) {
-        state();
-    }
-}else{
-	sprite_index = Spr_player_dead;
-	hspd = 0;
-	vspd = 0;
-}
 usa_arma();
 joga_arma();
 
