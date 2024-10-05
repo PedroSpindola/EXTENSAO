@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"grupo_Spr_testes",
-    "path":"folders/Sprites/grupo_Spr_testes.yy",
+    "name":"grupo_Spr_fundo",
+    "path":"folders/Sprites/grupo_Spr_fundo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

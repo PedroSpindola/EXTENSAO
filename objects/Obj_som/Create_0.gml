@@ -12,4 +12,6 @@ sfx_pulo = new audioPlaySfx(pulo_player,auTipoSfx);
 
 Sfx_ataquebasico = new audioPlaySfx(Sm_ataquebasico,auTipoSfx);
 
+Sfx_selecaoBotao = new audioPlaySfx(Sm_selecionarBotao,auTipoSfx) 
+
 musica_qg = new AudioPlayMusica(Sm_qg,auTipoMusica,0);
