@@ -46,7 +46,7 @@
   "origin":7,
   "parent":{
     "name":"tatu",
-    "path":"folders/Sprites/grupo_Spr_inimigos/tatu.yy",
+    "path":"folders/Sprites/grupo_Spr_inimigos/grupo_treinamento/tatu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

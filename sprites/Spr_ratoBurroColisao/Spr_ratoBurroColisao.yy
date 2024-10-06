@@ -29,7 +29,7 @@
   "origin":7,
   "parent":{
     "name":"ratoburro",
-    "path":"folders/Sprites/grupo_Spr_inimigos/ratoburro.yy",
+    "path":"folders/Sprites/grupo_Spr_inimigos/grupo_treinamento/ratoburro.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

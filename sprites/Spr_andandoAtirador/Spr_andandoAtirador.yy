@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"ratoatirador",
-    "path":"folders/Sprites/grupo_Spr_inimigos/ratoatirador.yy",
+    "path":"folders/Sprites/grupo_Spr_inimigos/grupo_treinamento/ratoatirador.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_invisivel",
-    "path":"sprites/spr_invisivel/spr_invisivel.yy",
+    "name":"spr_quebravel",
+    "path":"sprites/spr_quebravel/spr_quebravel.yy",
   },
   "spriteMaskId":null,
   "visible":false,
