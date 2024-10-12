@@ -9,8 +9,8 @@
   "name":"Obj_som",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"grupo_Obj_funcoes",
+    "path":"folders/Objetos/grupo_Obj_funcoes.yy",
   },
   "parentObjectId":null,
   "persistent":true,
