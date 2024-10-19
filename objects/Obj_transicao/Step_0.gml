@@ -1,26 +1,21 @@
-
-
-
-if(mudei){
-	
-	alpha-= 0.01
-	
+if(mudei){	
+		
+		
+	alpha -=0.01
+		
 }else{
-	
-	alpha +=0.01
-	
+			
+	alpha+= 0.01
+		
 }
-
-if(alpha >= 1){
-
+	
+if(alpha>=1){
 	room_goto(destino)
-	
-	Obj_player.x = destinoX
-	Obj_player.y = destinoY
-	
+	Obj_player.x = xposicao
+	Obj_player.y = yposicao
 }
 
-if(mudei and alpha <=0){
+if(mudei and alpha<=0){
 
 	instance_destroy()	
 	

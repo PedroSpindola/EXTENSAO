@@ -86,8 +86,6 @@
     {"id":{"name":"Obj_menu","path":"objects/Obj_menu/Obj_menu.yy",},},
     {"id":{"name":"Obj_moedas","path":"objects/Obj_moedas/Obj_moedas.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
-    {"id":{"name":"Obj_portal_historia","path":"objects/Obj_portal_historia/Obj_portal_historia.yy",},},
-    {"id":{"name":"Obj_portal_treino","path":"objects/Obj_portal_treino/Obj_portal_treino.yy",},},
     {"id":{"name":"obj_quebravel","path":"objects/obj_quebravel/obj_quebravel.yy",},},
     {"id":{"name":"Obj_sensor","path":"objects/Obj_sensor/Obj_sensor.yy",},},
     {"id":{"name":"Obj_som","path":"objects/Obj_som/Obj_som.yy",},},
