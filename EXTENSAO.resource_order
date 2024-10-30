@@ -122,6 +122,7 @@
     {"name":"Spr_tiro","order":1,"path":"sprites/Spr_tiro/Spr_tiro.yy",},
     {"name":"Spr_tiroMorcego","order":2,"path":"sprites/Spr_tiroMorcego/Spr_tiroMorcego.yy",},
     {"name":"Spr_titulo","order":8,"path":"sprites/Spr_titulo/Spr_titulo.yy",},
+    {"name":"Sprite_bolapelo","order":2,"path":"sprites/Sprite_bolapelo/Sprite_bolapelo.yy",},
     {"name":"Sprite29","order":3,"path":"sprites/Sprite29/Sprite29.yy",},
     {"name":"Sprite39","order":6,"path":"sprites/Sprite39/Sprite39.yy",},
     {"name":"Sprite7","order":1,"path":"sprites/Sprite7/Sprite7.yy",},
