@@ -12,7 +12,7 @@ moedas = 0;
 arma = noone;
 
 usa_arma = function(){
-	if(arma){
+	if(arma != noone){
 		var _fire = mouse_check_button(mb_left);
 		arma.atirar = _fire;
 		var _dir = point_direction(x, y, mouse_x, mouse_y);
@@ -26,6 +26,8 @@ usa_arma = function(){
 		
 	}
 }
+
+
 joga_arma = function(){
 	if(arma){
 		var _joga = keyboard_check_released(ord("Q"));

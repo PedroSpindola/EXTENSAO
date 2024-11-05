@@ -60,6 +60,7 @@
     {"name":"Obj_moedas","order":17,"path":"objects/Obj_moedas/Obj_moedas.yy",},
     {"name":"Obj_player","order":2,"path":"objects/Obj_player/Obj_player.yy",},
     {"name":"obj_quebravel","order":1,"path":"objects/obj_quebravel/obj_quebravel.yy",},
+    {"name":"Obj_salvamento","order":8,"path":"objects/Obj_salvamento/Obj_salvamento.yy",},
     {"name":"Obj_sensor","order":1,"path":"objects/Obj_sensor/Obj_sensor.yy",},
     {"name":"Obj_som","order":7,"path":"objects/Obj_som/Obj_som.yy",},
     {"name":"Obj_spawn_arma","order":1,"path":"objects/Obj_spawn_arma/Obj_spawn_arma.yy",},

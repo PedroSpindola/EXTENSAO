@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_botaoOpcao",
+  "%Name":"Obj_salvamento",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":71,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":76,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_botaoOpcao",
+  "name":"Obj_salvamento",
   "overriddenProperties":[],
   "parent":{
     "name":"grupo_Obj_funcoes",
     "path":"folders/Objetos/grupo_Obj_funcoes.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_botao_pai",
-    "path":"objects/Obj_botao_pai/Obj_botao_pai.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
