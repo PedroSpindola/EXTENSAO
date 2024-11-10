@@ -58,6 +58,7 @@
     {"name":"Obj_inimigo2","order":2,"path":"objects/Obj_inimigo2/Obj_inimigo2.yy",},
     {"name":"Obj_inimigos_parente","order":8,"path":"objects/Obj_inimigos_parente/Obj_inimigos_parente.yy",},
     {"name":"Obj_moedas","order":17,"path":"objects/Obj_moedas/Obj_moedas.yy",},
+    {"name":"Obj_pause","order":9,"path":"objects/Obj_pause/Obj_pause.yy",},
     {"name":"Obj_player","order":2,"path":"objects/Obj_player/Obj_player.yy",},
     {"name":"obj_quebravel","order":1,"path":"objects/obj_quebravel/obj_quebravel.yy",},
     {"name":"Obj_salvamento","order":8,"path":"objects/Obj_salvamento/Obj_salvamento.yy",},
